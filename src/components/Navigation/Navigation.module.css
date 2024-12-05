@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+  a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .active {
+    text-decoration: underline;
+    color: #dc143c;
+  }
+}

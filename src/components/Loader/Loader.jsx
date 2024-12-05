@@ -1,16 +1,15 @@
 import React from 'react';
-import { Vortex } from 'react-loader-spinner';
+import { DNA } from 'react-loader-spinner';
 
 const Loader = () => {
   return (
-    <Vortex
+    <DNA
       visible={true}
       height="80"
       width="80"
-      ariaLabel="vortex-loading"
+      ariaLabel="dna-loading"
       wrapperStyle={{}}
-      wrapperClass="vortex-wrapper"
-      colors={['red', 'green', 'blue', 'yellow', 'orange', 'purple']}
+      wrapperClass="dna-wrapper"
     />
   );
 };

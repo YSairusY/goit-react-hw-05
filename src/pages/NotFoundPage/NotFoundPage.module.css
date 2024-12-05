@@ -1,0 +1,9 @@
+.navLink {
+  color: #dc143c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
